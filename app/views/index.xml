@@ -1,0 +1,33 @@
+<Alloy>
+	<Window id="winIndex">
+		<View id="vwMain">
+			<View id="vwHeader">
+				<Label id="lblHeader" text="Header bar"></Label>
+			</View>
+			
+			<ScrollView id="vwOptions">
+
+				<View class="classParentView" id="vwOne">
+					<Label class="classOptionLabel" text="View One"></Label>
+				</View>
+				
+				<View class="classParentView" id="vwTwo">
+					<Label class="classOptionLabel" text="View Two"></Label>
+				</View>
+				
+				<View class="classParentView" id="vwThree">
+					<Label class="classOptionLabel" text="View Three"></Label>
+				</View>
+				
+				<View class="classParentView" id="vwFour">
+					<Label class="classOptionLabel" text="View Four"></Label>
+				</View>
+				
+				<View class="classParentView" id="vwFive">
+					<Label class="classOptionLabel" text="View Five"></Label>
+				</View>
+			</ScrollView>
+
+		</View>
+	</Window>
+</Alloy>

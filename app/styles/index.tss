@@ -1,0 +1,70 @@
+"#winIndex": {
+	exitOnClose: true,
+	backgroundColor: Alloy.Globals.theme.colors.light,
+},
+
+"#vwHeader": {
+	top: 0,
+	height: Alloy.Globals.theme.sizes.headerbar,
+	width: Titanium.UI.FILL,
+	backgroundColor: Alloy.Globals.theme.colors.dark,
+	layout: "absolute"
+},
+
+"#lblHeader":{
+	left: 15,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	color: Alloy.Globals.theme.colors.light,
+	width : Titanium.UI.FILL,
+	font: {
+		fontSize: Alloy.Globals.theme.fonts.size25Fonts,
+	}
+},
+
+"#vwMain": {
+	top: 0,
+	layout: "absolute",
+	height: Titanium.UI.FILL
+},
+
+"#vwOptions": {
+	top: Alloy.Globals.theme.sizes.headerbar,
+	layout: "vertical",
+	height: Titanium.UI.SIZE,
+	scrollType: "vertical"
+},
+
+".classParentView": {
+	width: Titanium.UI.FILL,
+	height: Alloy.Globals.theme.sizes.indexViewHeight
+},
+
+".classOptionLabel": {
+	left: 15,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	color: Alloy.Globals.theme.colors.ligth,
+	width : Titanium.UI.FILL,
+	font: {
+		fontSize: Alloy.Globals.theme.fonts.size20Fonts,
+	}
+},
+
+"#vwOne": {
+	backgroundColor: "#AE1A00"
+},
+
+"#vwTwo": {
+	backgroundColor: "#FF3901",
+},
+
+"#vwThree": {
+	backgroundColor: "#1C3601"
+},
+
+"#vwFour": {
+	backgroundColor: "#0057C9"
+},
+
+"#vwFive": {
+	backgroundColor: "#85D71F"
+},
